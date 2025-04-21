@@ -1,0 +1,4 @@
+@ASM asm/test.asm,obj/test.obj
+@LOAD obj/test.obj
+@RUN
+@DUMP 0,10

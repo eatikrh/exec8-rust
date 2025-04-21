@@ -1,0 +1,12 @@
+@ASM asm/hello.asm,obj/hello.obj
+@LOAD obj/hello.obj
+@RUN
+
+@ASM asm/countdown.asm,obj/countdown.obj
+@LOAD obj/countdown.obj
+@RUN
+
+@ASM asm/test.asm,obj/test.obj
+@LOAD obj/test.obj
+@RUN
+@DUMP

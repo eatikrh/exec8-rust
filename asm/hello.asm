@@ -1,0 +1,7 @@
+START:  LDA ALPHA
+        ADD BETA
+        STA GAMMA
+        HLT
+ALPHA:  DEC 1
+BETA:   DEC 2
+GAMMA:  DEC 0

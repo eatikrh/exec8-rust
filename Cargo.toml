@@ -1,0 +1,8 @@
+[package]
+name = "exec-8"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+once_cell = "1.21.3"
